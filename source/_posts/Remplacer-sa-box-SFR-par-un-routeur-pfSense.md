@@ -4,6 +4,8 @@ date: 2020-08-13 16:32:23
 tags:
 ---
 
+> Document toujours en cours d'écriture, un peu de patience!
+
 Ce document à pour but d'expliquer la procédure permettant le remplacement d'une box SFR NVB6AC (fibre FTTH) par un routeur pfSense. Ce document est à but éducatif uniquement et ne vous incite aucunement à rendre votre matériel à SFR. 
 
 Si vous effectuez ces manipulations sur l'installation de votre domicile, le service client SFR sera certainement dans l'impossibilité de vous dépanner. Je décline l'entière responsabilité des possibles dommages causés à votre ligne, installation, et matériel. À vos risques et périls !
