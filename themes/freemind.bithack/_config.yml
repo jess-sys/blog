@@ -1,41 +1,25 @@
 slogan: "Information wants to be free."
 
 show_heart: true
-
 show_slogan: true
 
 menu:
-  - title: Archives
-    url: archives
-    intro: "All the articles."
-    # icon: "fa fa-archive"
-  - title: Categories
-    url: categories
-    intro: "All the categories."
-    # icon: "fa fa-folder"
-  - title: Tags
-    url: tags
-    intro: "All the tags."
-    # icon: "fa fa-tags"
   - title: About
     url: about
     intro: "About me."
-    # icon: "fa fa-user"
-  - title: RSS
-    url: atom.xml
-    intro: "Subscribe me."
-    # icon: "fa fa-user"
+    icon: "fa fa-user"
+
+  - title: "LinkedIn"
+    url: https://www.linkedin.com/in/jessy-sobreiro
+    intro: "My LinkedIn account"
+    icon: "fa fa-linkedin"
+
+  - title: "GitHub"
+    url: https://www.github.com/jess-sys
+    intro: "My GitHub"
+    icon: "fa fa-github"
 
 links:
-  - title: hexo-theme-bithack
-    url: https://github.com/Ares-X/hexo-theme-freemind.bithack
-    intro: ""
-    icon: false
-
-  # - title: "My LinkedIn"
-  #   url: http://www.linkedin.com/in/xxx
-  #   intro: "My Linkin account."
-  #   icon: "fa fa-linkedin"
 
 widgets:
 - search

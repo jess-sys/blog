@@ -33,16 +33,16 @@
 
   <% if (page.title){ %><meta property="og:title" content="<%= page.title %>"/><% } %>
   <meta property="og:site_name" content="<%= config.title %>"/>
-
   <% if(page.cover) { %>
     <meta property="og:image" content="<%= page.cover %>" />
   <% } else { %>
     <meta property="og:image" content="<%= config.cover %>"/>
   <% } %>
 
-  <% if (theme.rss){ %>
-    <link rel="alternative" href="<%- config.root %><%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+  <% if(page.language) { %>
+    <meta property="og:locale" content="<%= page.language %>" />
   <% } %>
+
   <% if (theme.favicon){ %>
     <link href="<%- config.root %><%- theme.favicon %>" rel="icon">
   <% } %>

@@ -106,4 +106,4 @@ theme: freemind.bithack
 deploy:
   type: git
   repo: https://github.com/jess-sys/blog
-  branch: gh-pages
+  branch: master 
